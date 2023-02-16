@@ -1,0 +1,82 @@
+
+:root{
+    --cor-de-fundo: #FF69B4;
+    --cor-de-letra: white;
+    --cor-de-realce: #00008B;
+    --letra-1:cursive;
+    --letra-2:Segoe UI, Tahoma, Geneva, Verdana, 'sans-serif';
+}
+body{
+    background: url(../imagens/HD-wallpaper-lgbt-gay-lesbian-thumbnail.jpg) no-repeat bottom center scroll;
+    background-position:0% 0%;
+    background-color: var(--cor-de-fundo);
+    background-size:cover;
+    color:var(--cor-de-letra);
+    width: 80%;
+
+}
+.cabecalho{
+    padding: 2% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+}
+.cabecalho_menu__Link{
+    text-align: center;
+    color: var(--cor-de-fundo);
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0%;
+    margin-left: 8%;
+    text-decoration: none;
+    font-style: italic;
+}
+evento{
+    display: flex;
+    align-items:center;
+    width: 75%;
+    margin: 0% 5% 0% 15%;
+    
+    
+
+}
+.evento__evento{
+    margin: 2% 5% 0 2%;
+    text-align: justify;
+
+}
+   
+
+
+.evento_titulo{
+font-family: var(--letra-1);
+color: var(--cor-de-fundo);
+font-size: 32px;
+font-display:initial ;
+text-align: justify;
+font-weight: 100;
+margin-bottom: 15%;
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    font-family: var(--letra-1);
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-de-letra);
+    text-align: center;
+    padding: 2%;
+}
