@@ -15,10 +15,9 @@
 .cabecalho_menu__Link{
     text-align: center;
     color: var(--cor-de-realce);
-    font-size: 24px;
+    font-size: x-large;
     font-weight: 300;
-    margin: 0%;
-    margin-left: 8%;
+    margin-left: 13%;
     text-decoration: none;
     font-style: italic;
 }
@@ -31,7 +30,7 @@ body{
     align-items:center;
     width: 75%;
     margin: 0% 5% 0% 15%;
-    padding: -15;
+    padding:-15%;
     
 
 }
@@ -43,9 +42,9 @@ body{
 
 }
 .conteudo__conteudo__titulo{
-    font-size: 36px;
+    font-size: 300%;
     font-weight: 100;
-    margin-bottom: -2%;
+    margin-bottom: -4%;
 
 
 }
@@ -53,19 +52,19 @@ body{
 .conteudo__conteudo__paragrafo{
 
     font-family: var(--letra-2);
-    font-size: 24px;
+    font-size: x-large;
     font-weight: 300;
     margin-bottom: 5%;
     font-style: italic;
 }
 .rodape{
     font-family: var(--letra-1);
-    font-size: 24px;
+    font-size: x-large;
     font-weight: 300;
     color: var(--cor-de-fundo);
     background-color: var(--cor-de-letra);
     text-align: center;
-    padding: 2%;
+    padding: 2% 
 }
 
 .conteudo__conteudo__link__link {
@@ -74,17 +73,20 @@ body{
     justify-content: center;
     gap:1REM;
     width: 40%; 
-    text-align:justify;
+    text-align:CENTER;
     color: var(--cor-de-fundo);
-    border: 0.2rem solid var(--cor-de-realce);
+    border: 1% solid var(--cor-de-realce);
     border-radius:1.2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     text-decoration: none;
     font-family: var(--letra-1);
     font-weight: 300;
-    margin: 0px;
+    margin: 0%;
     font-style:italic;
+    align-items: center;
+    margin-left: 25%; 
+
 
 }
 .conteudo__conteudo__link__link:hover{

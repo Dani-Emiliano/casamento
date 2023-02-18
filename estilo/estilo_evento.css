@@ -51,7 +51,7 @@ evento{
 .evento_titulo{
 font-family: var(--letra-1);
 color: var(--cor-de-fundo);
-font-size: 32px;
+font-size: large;
 font-display:initial ;
 text-align: justify;
 font-weight: 100;
